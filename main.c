@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "tasizan.h"
 #include "hikizan.h"
+#include "warizan.h"
 
 int main(int args,char** argv){
   printf("Hello world\n");
@@ -11,6 +12,9 @@ int main(int args,char** argv){
 
   int s = sum(arr,arr_size);
   printf("sum = %d\n",s);
+
+  int k = warizan(9,3);
+  printf("9 / 3 = %d\n",k);
 
   return 0;
 }
