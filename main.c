@@ -2,6 +2,7 @@
 #include "tasizan.h"
 #include "hikizan.h"
 #include "warizan.h"
+#include "kakezan.h"
 
 int main(int args,char** argv){
   printf("Hello world\n");
@@ -15,6 +16,9 @@ int main(int args,char** argv){
 
   int k = warizan(9,3);
   printf("9 / 3 = %d\n",k);
+
+  int m = kakezan(4,6);
+  printf("4 * 6 = %d\n",m);
 
   return 0;
 }
