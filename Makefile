@@ -1,5 +1,5 @@
-git_tutorial: main.o tasizan.o hikizan.o
-					gcc -o git_tutorial main.o tasizan.o hikizan.o
+git_tutorial: main.o tasizan.o hikizan.o kakezan.o
+					gcc -o git_tutorial main.o tasizan.o hikizan.o kakezan.o
 
 main.o:   main.c
 					gcc -c main.c
@@ -9,3 +9,6 @@ tasizan.o: tasizan.c
 
 hikizan.o: hikizan.c
 					gcc -c hikizan.c
+
+kakezan.o: kakezan.c
+					gcc -c kakezan.c
